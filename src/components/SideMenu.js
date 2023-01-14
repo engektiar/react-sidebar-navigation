@@ -87,11 +87,7 @@ const SideMenu = (props) => {
           <img src={logo} alt="webscript" />
         </div>
         <div onClick={() => setInactive(!inactive)} className="toggle-menu-btn">
-          {inactive ? (
-            <i class="bi bi-arrow-right-square-fill"></i>
-          ) : (
-            <i class="bi bi-arrow-left-square-fill"></i>
-          )}
+          {inactive ? <i class="bi bi-arrow-right-square-fill"></i> : <i class="bi bi-arrow-left-square-fill"></i>}
         </div>
       </div>
 
@@ -151,8 +147,8 @@ const SideMenu = (props) => {
           <img src={user} alt="user" />
         </div>
         <div className="user-info">
-          <h5>Rizwan Khan</h5>
-          <p>rizwankhan@gmail.com</p>
+          <h5>Md Ektiar Hossen</h5>
+          <p>eng.ektiar@gmail.com</p>
         </div>
       </div>
     </div>
